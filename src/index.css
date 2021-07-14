@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+  @apply px-5 py-2 lg:shadow-sm  rounded text-base font-semibold bg-green-300 hover:bg-green-400
+  hover:text-white mr-2
+}
+
+
+.btn1{
+  @apply px-5 py-2 md:shadow-sm  rounded text-base font-semibold bg-pink-300 hover:bg-pink-400
+  hover:text-white ml-2
+}
+
+.btn2{
+  @apply px-5 py-2 shadow-sm  rounded text-base font-semibold bg-gray-300 hover:bg-gray-400
+  hover:text-white ml-2
+}
